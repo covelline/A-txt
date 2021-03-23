@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5772695871753156210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5772695871753156208}
+  - component: {fileID: 5772695871753156211}
+  - component: {fileID: 1746895169454035800}
+  m_Layer: 0
+  m_Name: ActiveTextTemplate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5772695871753156208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772695871753156210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5772695871753156211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772695871753156210}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4ec33cee90c844ea1bcc2cd642033e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNativeGLTexturingIfAvailable: 0
+  AllowNonRGBVideo: 1
+  QuitOnEscOrBack: 1
+  AutoStartAR: 1
+  videoCParamName0: 
+  videoConfigurationWindows0: -showDialog
+  videoConfigurationMacOSX0: -width=640 -height=480
+  videoConfigurationiOS0: 
+  videoConfigurationAndroid0: 
+  videoConfigurationLinux0: 
+  BackgroundLayer0: 8
+  PluginConfigurationRequiredFlag: 0
+  VideoIsStereo: 0
+  transL2RName: transL2R
+  videoCParamName1: 
+  videoConfigurationWindows1: -devNum=2 -showDialog
+  videoConfigurationMacOSX1: -source=1 -width=640 -height=480
+  videoConfigurationiOS1: 
+  videoConfigurationAndroid1: 
+  videoConfigurationLinux1: 
+  BackgroundLayer1: 9
+  NearPlane: 0.01
+  FarPlane: 5
+  ContentRotate90: 0
+  ContentFlipH: 0
+  ContentFlipV: 0
+  ContentAlign: 4
+  currentContentMode: 1
+  currentThresholdMode: 0
+  currentThreshold: 100
+  currentLabelingMode: 1
+  currentTemplateSize: 16
+  currentTemplateCountMax: 25
+  currentBorderSize: 0.25
+  currentPatternDetectionMode: 0
+  currentMatrixCodeType: 3
+  currentImageProcMode: 0
+  currentUseVideoBackground: 1
+  currentNFTMultiMode: 1
+  currentLogLevel: 1
+  scrollPosition: {x: 0, y: 0}
+--- !u!114 &1746895169454035800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5772695871753156210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2915c6ce2ee084925bbb4b47f477bdf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentDirName: 

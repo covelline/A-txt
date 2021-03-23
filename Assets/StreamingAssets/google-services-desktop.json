@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "640968503859",
+    "firebase_url": "https://activetext-4b0e1.firebaseio.com",
+    "project_id": "activetext-4b0e1",
+    "storage_bucket": "activetext-4b0e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640968503859:android:e1a2d66f43657d2d1ce946",
+        "android_client_info": {
+          "package_name": "com.covelline.ActiveText_Unity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640968503859-jn17b0gh0i3v76poka7jbotq72kbldk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAduwtkD9VrmJ8UE75MzgaIgW0mXT88-jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640968503859-jn17b0gh0i3v76poka7jbotq72kbldk4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "640968503859-084a9ps3mif16p12pr65nbpjk8nakrkc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.covelline.onct.ActiveText-Unity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
